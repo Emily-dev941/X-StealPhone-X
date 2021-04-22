@@ -104,7 +104,7 @@ def numy():
    print(f"{c16}[{c1}!{c16}]Este proceso puede demorar horas")
    os.system("sleep 1")
    sh()
-   for c in range(1, 10000):
+   for c in range(1, 1000000):
       print("{1}Intento {2}<{0}>{3}".format(c,c9,c6,c16))
       ult("Importando información personal")
       lento("...")
